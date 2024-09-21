@@ -22,6 +22,10 @@ const userSchema = new mongoose.Schema({
         type:Number,
         required:true
     },
+    experience:{
+        type:Number,
+        required:true
+    },
     place:{
         type:String,
         required:true

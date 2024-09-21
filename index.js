@@ -20,4 +20,3 @@ crudServer.listen(port,()=>{
 crudServer.get('/',(req,res)=>{
     res.send(`<h1>Server is Running</h1>`)
 })
-
